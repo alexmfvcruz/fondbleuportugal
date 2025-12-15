@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fondbleu</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero" id="topo">
+      <nav class="nav" aria-label="Principal">
+        <a class="logo" href="#topo" aria-label="Início fondbleu">fondbleuportugal</a>
+        <div class="nav-links">
+          <a href="#contactos">Contacte-nos</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <p class="eyebrow">feito em portugal</p>
+        <h1>fondbleu - website em construção</h1>
+        <p>
+          
+        </p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#contactos">Formulário de contacto</a>
+          <a class="btn ghost" href="mailto:hello@fondbleu.studio">Escrever email</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="cta" id="contactos">
+        <div>
+          <p class="eyebrow">Contacto direto</p>
+          <h2>Partilhe a sua questão connosco e respondemos em 24 horas!</h2>
+        </div>
+        <form class="contact" aria-label="Formulário de contacto">
+          <label>
+            Nome
+            <input type="text" name="name" placeholder="O seu nome" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="O seu endereço de email" required />
+          </label>
+          <label>
+            Mensagem
+            <textarea
+              name="details"
+              rows="3"
+              placeholder="Escreva a sua mensagem"
+              required
+            ></textarea>
+          </label>
+          <button type="submit" class="btn primary" disabled>Enviar mensagem</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> fondbleuportugal</p>
+      <p>Website criado por Calismar Moniz</p>
+      <a href="mailto:info@fondbleuportugal.pt">info@fondbleuportugal.pt</a>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
